@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #Fff;
+}
+.dt{
+    display: flex;
+    width: 90%;
+    margin:20px auto;
+}
+.jk{
+    display: flex;
+    margin: 0 auto;
+}
+.gg{
+    width: 196px;
+    height: 364px;
+    margin-right: 56px;
+    text-align: center;
+}
+.gg-1 li{
+    line-height: 52px;
+    height: 52px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eee;
+}
+.gg-1 li:hover{
+    background-color:#eeeeee;
+    transition: 0.6s;
+    border-left: 4px solid #ffd200;
+}
+.gg-1 li:nth-child(1){
+    height: 46px;
+    line-height: 46px;
+    background-color: #ffd200;
+}
+.xw{
+    width: 70%;
+}
+.xw h3{
+    width: 82px;
+    height: 30px;
+    border-bottom: 2px solid #ffd200;
+}
+.lm{
+    display: flex;
+    height: 181px;
+    padding: 30px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+.lm img{
+    width: 180px;
+}
+.wa{
+    padding-left: 30px;
+}
+.wa span{
+    font-size: 14px;
+}
+.wa p{
+    margin: 20px 0;
+}
+.yj{
+    margin-left: 50px;
+}
+.n{
+    margin-right: 50px;
+}
+.ztz{
+    margin-left: 25px;
+    width: 190px;
+}
+.ztz h4{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+    border-left: 3px solid #ffd200;
+    margin-bottom: 15px;
+}
+.xc{
+    margin: 10px 0;
+}
+.xc div{
+    float: left;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #a0a0a0;
+    font-size: 15px;
+    color: #fff;
+}
+.xc span{
+    display: block;
+    font-size: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 15px;
+}
+.banner{
+    width: 100%;
+    margin: 0;
+}
+.banner img{
+    width: 100%;
+}
+.end{
+    margin-top: 30px;
+}
+.tn{
+    margin-top: 30px;
+    float: right;
+    font-size: 14px;
+   
+}
+.tn a{
+    color: #000;
+}

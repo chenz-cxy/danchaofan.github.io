@@ -1,0 +1,120 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.sc{
+    width: 90%;
+    height: 42px;
+    margin: 50px auto;
+}
+.hh{
+    display: flex;
+    margin: 0 auto;
+    width: 575px;
+    height: 42px;
+    line-height: 42px;
+}
+.hh img{
+    float: left;
+    vertical-align: middle;
+    margin-top: 3px;
+}
+.kuang{
+    outline-style: none;
+    float: left;
+    width: 332px;
+    height: 42px;
+    border: 1px solid #ccc;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    margin: 0 30px;
+    color: #666;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.hh span{
+    float: left;
+    display: block;
+    width: 90px;
+    background-color: #ffd200;
+    text-align: center;
+    border-radius: 5px;
+}
+.dl{
+    width: 100%;
+    margin: 0 auto;
+}
+.dh-1{
+    display: flex;
+    flex: 1;
+}
+.dh-1 li{
+    flex: 1;
+    display: flex;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.dh-1 li a{
+    display: block;
+    width: 65px;
+    margin: 0 auto;
+}
+.dh-1 li a:hover{
+    color: #73BA3D;
+    transition: 0.6s;
+    border-bottom: 3px solid #73BA3D;
+}
+.sp{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.bk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bk li{
+    /* flex:1; */
+    width: 15%;
+    height: 210px;
+    margin-right: 32px;
+    background-color: #fff;
+}
+.bk li:nth-child(5){
+    margin-right:0 ;
+}
+.bk li img{
+    width: 100%;
+}
+.xz{
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.xz span:nth-child(2){
+    float: right;
+}
+.xz span{
+    display: block;
+    margin: 8px 0 0 0;
+    float: left;
+}
+.xz .mm:before{
+    float: left;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(../img/播放数_32.png) no-repeat;
+    content: '';
+    margin-right: 5px;
+}
+.xz span a{
+   color: #666;
+}
+.bk{
+    margin-top: 20px;
+}
